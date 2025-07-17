@@ -52,6 +52,10 @@ header ul li{
     font-size: 14px;
     font-weight: 600;
 }
+.profile{
+    font-size: 20px;
+    margin:0px 10px 0px 20px;
+}
 header ul li:hover{
     cursor: pointer;
     color: var(--light);
@@ -105,8 +109,7 @@ section .action{
 .butt-s svg{
     width: 20px;
 }
-.butt-s{
-}
+
 .cvar{
     margin: auto;
     padding: 6px;
@@ -156,6 +159,11 @@ article p{
     border-radius: 50%;
     margin: auto;
     box-shadow: 4px 5px 0px 0px var(--secondary);
+    justify-content: center;
+}
+.icon i{
+    color: var(--light);
+    font-size: 30px;
 }
 .card h3{
     margin-top: 46px;
@@ -168,6 +176,7 @@ article p{
     font-weight: ;
     color: oklch(44.6% 0.03 256.802);
     line-height: 1.6;
+    text-align: left;
 }
 .backg{
     background-color: #1C398E;
@@ -192,6 +201,11 @@ article p{
     padding: 40px;
     background-color: #ffffff3d;
     border-radius: 24px;
+}
+.works i{
+    color: var(--secondary);
+    font-size: 36px;
+    margin-bottom: 20px;
 }
 .works h4{
     margin-bottom: 8px;
@@ -229,6 +243,9 @@ article p{
    border: 2px solid #E5E7EB;
    border-radius: 12px;
 }
+.option:hover{
+
+}
 .option1{
    border: 2px solid var(--Primary);
 }
@@ -254,13 +271,12 @@ article p{
     background-color: #EFF6FF;
 }
 .save{
-    width: 20px;
-    height: 20px;
-    background-color: var(--Primary);
+    color: var(--Primary);
     border-radius: 50%;
     position: absolute;
     top: 10px;
     right: 10px;
+    font-size: 20px;
 }
 .puy button{
     border:none;
@@ -315,7 +331,7 @@ footer p span:hover{
 @media(max-width:700px){
 .flex-w{
     flex-direction: column;
-    gap: 15px;
+    gap: 30px;
 }    
 header ul li{
     display: none;
