@@ -40,6 +40,10 @@ header svg{
 .logo{
     width: 190px;
 }
+.logo i{
+    color: #99A1AF;
+    font-size: 20px;
+}
 .logo h1{
     font-size: 18px;
     font-weight: 700;
@@ -53,7 +57,7 @@ header ul li{
     font-weight: 600;
 }
 .profile{
-    font-size: 20px;
+    font-size: 25px;
     margin:0px 10px 0px 20px;
 }
 header ul li:hover{
